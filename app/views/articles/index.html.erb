@@ -1,9 +1,14 @@
 <%= link_to 'Add a new article', new_article_path(@article) %>
 
-<ul>
-<% @articles.each do |article| %>
-    <li class = main-li> <%=  link_to article.title, article_path(article) %> </li>
-    <li><%= article.content %></li>
+<div class="container">
 
-  <% end %>
+<ul>
+  <% @articles.each do |article| %>
+    <div class="article-list">
+      <li class = main-li> <%=  link_to article.title, article_path(article) %> </li>
+      <li><%= article.content %></li>
+    </div>
+
+    <% end %>
 </ul>
+</div>
