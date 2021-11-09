@@ -1,0 +1,28 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: #337ab7;
+  font-size: 30px;
+}
+
+.main-li {
+
+  font-size: 30px;
+  list-style: none;
+}
+
+.main-li a {
+  text-decoration: none;
+  color: #337ab7;
+
+}
+
+li {
+  list-style: none;
+  margin-bottom: 7px;
+}
